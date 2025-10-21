@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <time.h>
-#include <math.h>
 
 int main()
 {
@@ -62,8 +61,8 @@ int main()
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 1. Declare variáveis para armazenar: nome (array de char), idade (int) e altura(float). Atribua valores e mostre-os na consola.
-     
 
+        //1º Declarar variaveis
         //char nome[] = "Vitor Marques";;
         //int idade;
         //float altura;
@@ -96,29 +95,27 @@ int main()
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 3. Leia nome, dia, mês e ano de nascimento e escreva na consola.
-       // char nome1[50];
-        //int dia, mes, ano;
+        /*char nome1[50];
+        int dia, mes, ano;
 
-        //printf("\nNome: ");
-        //gets_s(nome1, sizeof(nome1));
+        printf("\nNome: ");
+        gets_s(nome1, sizeof(nome1));
 
-        //printf("\nDia: ");
-        //scanf_s("%d", &dia);
+        printf("\nDia: ");
+        scanf_s("%d", &dia);
 
-        //printf("\Mes: ");
-        //scanf_s("%d", &mes);
+        printf("\Mes: ");
+        scanf_s("%d", &mes);
 
-        //printf("\Ano: ");
-        //scanf_s("%d", &ano);
+        printf("\Ano: ");
+        scanf_s("%d", &ano);
 
-        //printf("\nNome: %s, \nDia: %d, \nMes: %d, \nAno: %d ", nome1, dia, mes, ano);
-
+        printf("\nNome: %s, \nDia: %d, \nMes: %d, \nAno: %d ", nome1, dia, mes, ano);*/
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 4. Fazer um programa para ler o nome e a idade de duas pessoas;
 
         //1º Identificar/declarar variaveis
-
         //char nome2[50], nome3[50];
         //int idade2, idade3;
 
@@ -143,35 +140,33 @@ int main()
         //printf("1º pessoa: %s - %d anos\n", nome2, idade2);
         //printf("2º pessoa: %s - %d anos\n", nome3, idade3);
 
-
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 5. Fazer um programa para ler nome e salário de dois funcionários;
 
-        //char nomeF1[50], nomeF2[50];
-        //float salario1, salario2;
+        /*char nomeF1[50], nomeF2[50];
+        float salario1, salario2;
 
-        //printf("\nFuncionário 1: ");
-        //printf("\nNome: ");
-        //gets_s(nomeF1, sizeof(nomeF1));
-        //printf("Salário: ");
-        //scanf_s("%f", &salario1);
-        //while (getchar() != '\n');
+        printf("\nFuncionário 1: ");
+        printf("\nNome: ");
+        gets_s(nomeF1, sizeof(nomeF1));
 
-        //printf("\nFuncionário 2: ");
-        //printf("\nNome: ");
-        //gets_s(nomeF2, sizeof(nomeF2));
+        printf("Salário: ");
+        scanf_s("%f", &salario1);
+        while (getchar() != '\n');
 
-        //printf("Salário: ");
-        //scanf_s("%f", &salario2);
-        //printf("\nDados dos funcionários:\n");
-        //printf("1º funcionário: %s - Salário: %.2f\n", nomeF1, salario1);
-        //printf("2º funcionário: %s - Salário: %.2f\n", nomeF2, salario2);
+        printf("\nFuncionário 2: ");
+        printf("\nNome: ");
+        gets_s(nomeF2, sizeof(nomeF2));
 
+        printf("Salário: ");
+        scanf_s("%f", &salario2);
+        printf("\nDados dos funcionários:\n");
+        printf("1º funcionário: %s - Salário: %.2f\n", nomeF1, salario1);
+        printf("2º funcionário: %s - Salário: %.2f\n", nomeF2, salario2);*/
 
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 6. Fazer um programa para ler o código de uma peça, a sua quantidade e o preço da peça;
-
        /* int codigo;
         int quantidade;
         float preco;
@@ -188,7 +183,6 @@ int main()
 
         printf("\nDados da peça:\n");
         printf("Código: %d - Quantidade: %d - Preço: %.2f\n", codigo, quantidade, preco);*/
-
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 7. Qual a diferença entre os tipos de dados int ou uint ?
@@ -297,40 +291,31 @@ int main()
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
         //4º Crie uma calculadora que receba dois números e realize as 4 operações básicas.
-        
-        //1º Identificar variaveis
-        //float num1, num2, soma, multiplicacao, subtracao, divisao;
-        //
+        //float num1, num2;
 
-        ////2º Ler valores
         //printf("Digite o primeiro numero: ");
         //scanf_s("%f", &num1);
 
         //printf("Digite o segundo numero: ");
         //scanf_s("%f", &num2);
 
-        ////3º Aplicar a lógica
-        //soma = num1 + num2;
-        //subtracao = num1 - num2;
-        //multiplicacao = num1 * num2;
-        //divisao = num1 / num2;
-
         //printf("\nResultados:\n");
-        //printf("Soma: %.2f\n", soma);
+        //printf("Soma: %.2f\n", num1 + num2);
+        //printf("Subtração: %.2f\n", num1 - num2);
+        //printf("Multiplicação: %.2f\n", num1 * num2);
 
-        //printf("Subtração: %.2f\n", subtracao);
-        //printf("Multiplicação: %.2f\n", multiplicacao);
-        //printf("Divisão: %.2f\n", divisao);
-
-
+        //if (num2 != 0) {
+        //    printf("Divisão: %.2f\n", num1 / num2);
+        //}
+        //else {
+        //    printf("Divisão por zero não é permitida!\n");
+        //}
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
         //5º Crie um programa que leia 3 notas de um aluno e calcule a média aritmética.
-        //1º Identificar as variaveis
         //float nota1, nota2, nota3, media;
         //char nome[50];
 
-        ////2º LER /obter dados
         //printf("Digite o nome do aluno: ");
         //gets_s(nome, sizeof(nome));
 
@@ -343,7 +328,6 @@ int main()
         //printf("Digite a terceira nota: ");
         //scanf_s("%f", &nota3);
 
-        ////3º Lógica
         //media = (nota1 + nota2 + nota3) / 3.0f;
 
         //printf("\nResultado para %s:\n", nome);
@@ -351,21 +335,16 @@ int main()
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
         //6º Faça um programa que converta temperatura de Celsius para Fahrenheit
-        //1º Identificar váriaveis
-        float celsius, fahrenheit;
+        //float celsius, fahrenheit;
 
-        //2º Ler dados
-        printf("Digite a temperatura em Celsius: ");
-        scanf_s("%f", &celsius);
+        //printf("Digite a temperatura em Celsius: ");
+        //scanf_s("%f", &celsius);
 
-        //3º Aplicar lógica
-        // Formula: °F = (°C × 9/5) + 32
-        fahrenheit = (celsius * 9 / 5) + 32;
+        //// Formula: °F = (°C × 9/5) + 32
+        //fahrenheit = (celsius * 9 / 5) + 32;
 
-        printf("\nConversao de temperatura:\n");
-        printf("%.1f graus Celsius = %.1f graus Fahrenheit\n", celsius, fahrenheit);
-
-        system("pause");
+        //printf("\nConversao de temperatura:\n");
+        //printf("%.1f graus Celsius = %.1f graus Fahrenheit\n", celsius, fahrenheit);
 
 
 
