@@ -63,17 +63,17 @@ int main()
         // 1. Declare variáveis para armazenar: nome (array de char), idade (int) e altura(float). Atribua valores e mostre-os na consola.
 
         //1º Declarar variaveis
-        char nome[] = "Vitor Marques";;
-        int idade;
-        float altura;
-        
-        //2º Atribuir valores
-        idade = 25;
-        altura = 1.70;
-        
-        //3º Mostrar valores
-        printf("Nome: %s, idade: %d, altura %f \n", nome, idade, altura);
-        
+        //char nome[] = "Vitor Marques";;
+        //int idade;
+        //float altura;
+        //
+        ////2º Atribuir valores
+        //idade = 25;
+        //altura = 1.70;
+        //
+        ////3º Mostrar valores
+        //printf("Nome: %s, idade: %d, altura %f \n", nome, idade, altura);
+        //
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 2. Troque os valores de duas variáveis inteiras a e b (sem usar uma terceira variável auxiliar).
@@ -95,89 +95,94 @@ int main()
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 3. Leia nome, dia, mês e ano de nascimento e escreva na consola.
-       // char nome1[50];
-        //int dia, mes, ano;
+        /*char nome1[50];
+        int dia, mes, ano;
 
-        //printf("\nNome: ");
-        //gets_s(nome1, sizeof(nome1));
+        printf("\nNome: ");
+        gets_s(nome1, sizeof(nome1));
 
-        //printf("\nDia: ");
-        //scanf_s("%d", &dia);
+        printf("\nDia: ");
+        scanf_s("%d", &dia);
 
-        //printf("\Mes: ");
-        //scanf_s("%d", &mes);
+        printf("\Mes: ");
+        scanf_s("%d", &mes);
 
-        //printf("\Ano: ");
-        //scanf_s("%d", &ano);
+        printf("\Ano: ");
+        scanf_s("%d", &ano);
 
-        //printf("\nNome: %s, \nDia: %d, \nMes: %d, \nAno: %d ", nome1, dia, mes, ano);
+        printf("\nNome: %s, \nDia: %d, \nMes: %d, \nAno: %d ", nome1, dia, mes, ano);*/
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 4. Fazer um programa para ler o nome e a idade de duas pessoas;
 
         //1º Identificar/declarar variaveis
-        char nome2[50], nome3[50];
-        int idade2, idade3;
+        //char nome2[50], nome3[50];
+        //int idade2, idade3;
 
-        //2º Pedir dados e atribuir as váriaveis
-        printf("\nPrimeira pessoa: ");
-        printf("\nNome: ");
-        gets_s(nome2, sizeof(nome2));
+        ////2º Pedir dados e atribuir as váriaveis
+        //printf("\nPrimeira pessoa: ");
+        //printf("\nNome: ");
+        //gets_s(nome2, sizeof(nome2));
 
-        printf("Idade: ");
-        scanf_s("%d", &idade2);
+        //printf("Idade: ");
+        //scanf_s("%d", &idade2);
 
-        while (getchar() != '\n');
+        //while (getchar() != '\n');
 
-        printf("Segunda pessoa : ");
-        printf("\nNome: ");
-        gets_s(nome3, sizeof(nome3));
+        //printf("Segunda pessoa : ");
+        //printf("\nNome: ");
+        //gets_s(nome3, sizeof(nome3));
 
-        printf("Idade: ");
-        scanf_s("%d", &idade3);
+        //printf("Idade: ");
+        //scanf_s("%d", &idade3);
 
-        printf("\nDados das pessoas:\n");
-        printf("1º pessoa: %s - %d anos\n", nome2, idade2);
-        printf("2º pessoa: %s - %d anos\n", nome3, idade3);
+        //printf("\nDados das pessoas:\n");
+        //printf("1º pessoa: %s - %d anos\n", nome2, idade2);
+        //printf("2º pessoa: %s - %d anos\n", nome3, idade3);
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 5. Fazer um programa para ler nome e salário de dois funcionários;
 
-        //char nomeF1[50], nomeF2[50];
-        //float salario1, salario2;
+        /*char nomeF1[50], nomeF2[50];
+        float salario1, salario2;
 
-        //printf("\nFuncionário 1: ");
-        //printf("\nNome: ");
-        //gets_s(nomeF1, sizeof(nomeF1));
-        //printf("Salário: ");
-        //scanf_s("%f", &salario1);
-        //while (getchar() != '\n');
+        printf("\nFuncionário 1: ");
+        printf("\nNome: ");
+        gets_s(nomeF1, sizeof(nomeF1));
 
-        //printf("\nFuncionário 2: ");
-        //printf("\nNome: ");
-        //gets_s(nomeF2, sizeof(nomeF2));
+        printf("Salário: ");
+        scanf_s("%f", &salario1);
+        while (getchar() != '\n');
 
-        //printf("Salário: ");
-        //scanf_s("%f", &salario2);
-        //printf("\nDados dos funcionários:\n");
-        //printf("1º funcionário: %s - Salário: %.2f\n", nomeF1, salario1);
-        //printf("2º funcionário: %s - Salário: %.2f\n", nomeF2, salario2);
+        printf("\nFuncionário 2: ");
+        printf("\nNome: ");
+        gets_s(nomeF2, sizeof(nomeF2));
+
+        printf("Salário: ");
+        scanf_s("%f", &salario2);
+        printf("\nDados dos funcionários:\n");
+        printf("1º funcionário: %s - Salário: %.2f\n", nomeF1, salario1);
+        printf("2º funcionário: %s - Salário: %.2f\n", nomeF2, salario2);*/
 
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 6. Fazer um programa para ler o código de uma peça, a sua quantidade e o preço da peça;
-        //int codigo;
-        //int quantidade;
-        //float preco;
-        //printf("\nPeça: ");
-        //printf("\nCódigo: ");
-        //scanf_s("%d", &codigo);
-        //printf("Quantidade: ");
-        //scanf_s("%d", &quantidade);
-        //printf("Preço: ");
-        //scanf_s("%f", &preco);
-        //printf("\nDados da peça:\n");
-        //printf("Código: %d - Quantidade: %d - Preço: %.2f\n", codigo, quantidade, preco);
+       /* int codigo;
+        int quantidade;
+        float preco;
+
+        printf("\nPeça: ");
+        printf("\nCódigo: ");
+        scanf_s("%d", &codigo);
+
+        printf("Quantidade: ");
+        scanf_s("%d", &quantidade);
+
+        printf("Preço: ");
+        scanf_s("%f", &preco);
+
+        printf("\nDados da peça:\n");
+        printf("Código: %d - Quantidade: %d - Preço: %.2f\n", codigo, quantidade, preco);*/
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 7. Qual a diferença entre os tipos de dados int ou uint ?
