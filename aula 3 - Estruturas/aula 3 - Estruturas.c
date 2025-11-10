@@ -311,7 +311,7 @@ int main()
     
 #pragma region ESTRUTURAS DE CONTROLO/REPETIÇÃO
 
-//1.
+//1.Mostre a tabuada de um número.
 //int numero;
 //
 //printf("Digite um número para ver sua tabuada: ");
@@ -322,7 +322,7 @@ int main()
 //    printf("%d x %d = %d\n", numero, i, numero * i);
 //}
 
-//2.
+//2. Conte quantas vogais (a, e, i, o, u) existem em uma palavra.
 //char palavra[100];
 //int vogais = 0;
 //
@@ -338,7 +338,8 @@ int main()
 
 //printf("A palavra '%s' tem %d vogais\n", palavra, vogais);
 
-//3.
+//3.Leia n valores representativos do pH e mostre, para cada valor, que tipo de
+// solução representa : ácida(pH < 7), neutra(pH = 7) ou alcalina(pH > 7) (for).
 //int n;
 //float pH;
 //
@@ -361,7 +362,8 @@ int main()
 //    }
 //}
 
-//Ex.4
+//Ex.4 Leia o número de golos marcados por uma equipa de futebol em um numero
+// desconhecido de jogos e no final mostre a média de golos por jogo(while).
 //int golos, totalGolos = 0, jogos = 0;
 //float media;
 //
