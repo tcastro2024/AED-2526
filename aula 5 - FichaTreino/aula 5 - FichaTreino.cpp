@@ -222,6 +222,83 @@ int main()
 
     // 4. Método que recebe 3 preços e retorna o mais baixo.
 
+#pragma region REVISÕES
+
+//3. Leia n valores representativos de pessoas que vão dar opinão sobre restaurantes
+//  e para cada opiniao, classifique o numero de estrelas correspondente numa 
+// escala entre 1 a 5.
+// 1 - Mau
+// 2 - Pouco satisfeito
+// 3 - Satifeito
+// 4 - Bom
+// 5 - Muito bom (for).
+
+int qtdOpinioes, opiniao;
+
+printf("Qtd de opinioes: ");
+scanf_s("%d", &qtdOpinioes); //10
+
+for (int i = 0; i < qtdOpinioes; i++)
+{
+    printf("\nOpiniao: ");
+    scanf_s("%d", &opiniao); //3
+
+    if (opiniao == 1)
+    {
+        printf("\nMau");
+    }
+    else if (opiniao == 2)
+    {
+        printf("\nPouco satisfeito");
+    }
+    else if (opiniao == 3)
+    {
+        printf("\nSatifeito");
+    }
+    else if (opiniao == 4)
+    {
+        printf("\nBom");
+    }
+    else if (opiniao == 5)
+    {
+        printf("\nMuito bom");
+    }
+    else
+    {
+        printf("Valor invalido");
+    }
+}
+
+//4. Leia o número desconhecido de alunos que entraram no IPCA e mostre o resultado (while)
+
+int contaAlunos = 0;
+char entrouAluno[50];
+
+entrouAluno[0] = 's'; //  Sim - entrou aluno | Não - não entrou aluno
+
+while (entrouAluno[0] == 's') // s == s
+{
+    printf("\nEntrou aluno (digite s - SIM e n - NAO): ");
+    gets_s(entrouAluno, sizeof(entrouAluno)); //n
+
+    //entrouAluno = s
+    //if (entrouAluno[0] == 'n') // s == n
+    //{
+    //    break;
+    //}
+
+    if (entrouAluno[0] == 's') // n == s
+    {
+        contaAlunos = contaAlunos + 1;   //0 = 0 + 1
+    }   
+}
+
+printf("\nQtd de alunos que entraram no ipca: %d", contaAlunos);
+
+
+
+
+#pragma endregion
 
 
 
