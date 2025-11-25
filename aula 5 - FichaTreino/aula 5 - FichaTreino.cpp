@@ -233,74 +233,180 @@ int main()
 // 4 - Bom
 // 5 - Muito bom (for).
 
-int qtdOpinioes, opiniao;
-
-printf("Qtd de opinioes: ");
-scanf_s("%d", &qtdOpinioes); //10
-
-for (int i = 0; i < qtdOpinioes; i++)
-{
-    printf("\nOpiniao: ");
-    scanf_s("%d", &opiniao); //3
-
-    if (opiniao == 1)
-    {
-        printf("\nMau");
-    }
-    else if (opiniao == 2)
-    {
-        printf("\nPouco satisfeito");
-    }
-    else if (opiniao == 3)
-    {
-        printf("\nSatifeito");
-    }
-    else if (opiniao == 4)
-    {
-        printf("\nBom");
-    }
-    else if (opiniao == 5)
-    {
-        printf("\nMuito bom");
-    }
-    else
-    {
-        printf("Valor invalido");
-    }
-}
+//int qtdOpinioes, opiniao;
+//
+//printf("Qtd de opinioes: ");
+//scanf_s("%d", &qtdOpinioes); //10
+//
+//for (int i = 0; i < qtdOpinioes; i++)
+//{
+//    printf("\nOpiniao: ");
+//    scanf_s("%d", &opiniao); //3
+//
+//    if (opiniao == 1)
+//    {
+//        printf("\nMau");
+//    }
+//    else if (opiniao == 2)
+//    {
+//        printf("\nPouco satisfeito");
+//    }
+//    else if (opiniao == 3)
+//    {
+//        printf("\nSatifeito");
+//    }
+//    else if (opiniao == 4)
+//    {
+//        printf("\nBom");
+//    }
+//    else if (opiniao == 5)
+//    {
+//        printf("\nMuito bom");
+//    }
+//    else
+//    {
+//        printf("Valor invalido");
+//    }
+//}
 
 //4. Leia o número desconhecido de alunos que entraram no IPCA e mostre o resultado (while)
-
-int contaAlunos = 0;
-char entrouAluno[50];
-
-entrouAluno[0] = 's'; //  Sim - entrou aluno | Não - não entrou aluno
-
-while (entrouAluno[0] == 's') // s == s
-{
-    printf("\nEntrou aluno (digite s - SIM e n - NAO): ");
-    gets_s(entrouAluno, sizeof(entrouAluno)); //n
-
-    //entrouAluno = s
-    //if (entrouAluno[0] == 'n') // s == n
-    //{
-    //    break;
-    //}
-
-    if (entrouAluno[0] == 's') // n == s
-    {
-        contaAlunos = contaAlunos + 1;   //0 = 0 + 1
-    }   
-}
-
-printf("\nQtd de alunos que entraram no ipca: %d", contaAlunos);
+//
+//int contaAlunos = 0;
+//char entrouAluno[50];
+//
+//entrouAluno[0] = 's'; //  Sim - entrou aluno | Não - não entrou aluno
+//
+//while (entrouAluno[0] == 's') // s == s
+//{
+//    printf("\nEntrou aluno (digite s - SIM e n - NAO): ");
+//    gets_s(entrouAluno, sizeof(entrouAluno)); //n
+//
+//    //entrouAluno = s
+//    //if (entrouAluno[0] == 'n') // s == n
+//    //{
+//    //    break;
+//    //}
+//
+//    if (entrouAluno[0] == 's') // n == s
+//    {
+//        contaAlunos = contaAlunos + 1;   //0 = 0 + 1
+//    }   
+//}
+//
+//printf("\nQtd de alunos que entraram no ipca: %d", contaAlunos);
 
 
 
 
 #pragma endregion
 
+#pragma region VETORES
 
+//int vetor[5] = { 1, 2, 9, 4, 5 }; // 0 1 2 3 4 -> POSIÇÕES DO ARRAY
+//
+////printf("\nVALOR DA 3 POSICAO DO ARRAY: %i", vetor[2]); // imprime 9
+//
+//vetor[0] = 45;
+//for (int i = 0; i < 5; i++)
+//{
+//    printf("\nVALOR DA POSICAO %d DO ARRAY: %d", (i + 1), vetor[i]);
+//}
+
+#pragma endregion
+
+
+float n1, n2, n3, maior;
+
+printf("Digite o 1 numero: ");
+scanf_s("%f", &n1);
+
+printf("Digite o 2 numero: ");
+scanf_s("%f", &n2);
+
+printf("Digite o 3 numero: ");
+scanf_s("%f", &n3);
+
+if (n1 > n2 )
+{
+    if (n1 > n3)
+    {
+        printf("O maior numero e: %f", n1);
+    }
+}
+else if (n2 > n1)
+{
+    if (n2 > n3)
+    {
+        printf("O maior numero e: %f", n2);
+    }
+}
+else
+{
+    printf("O maior numero e: %f", n3);
+}
+
+while (int i = 0)
+{
+
+}
+
+//if (n3 > maior)
+//{
+//    maior = n3;
+//}
+//
+//printf("O maior numero e: %f", maior);
+
+//if (n1 > n2 )
+//{
+//    printf("O maior numero e: %f", n1);
+//}
+//else if (n2 > n3)
+//{
+//    printf("O maior numero e: %f", n2);
+//}
+//else
+//{
+//    printf("O maior numero e: %f", n3);
+//}
+
+
+//if (n1 > n2 && n1 > n3)
+//{
+//    printf("O maior numero e: %f", n1);
+//}
+//else if (n2 > n1 && n2 > n3)
+//{
+//    printf("O maior numero e: %f", n2);
+//}
+//else if (n3 > n1 && n3 > n2)
+//{
+//    printf("O maior numero e: %f", n3);
+//}
+//else
+//{
+//    printf("Os números são iguais");
+//}
+
+//----------
+
+
+//
+//int contador = 0;
+//float nums = -1, media, soma = 0;
+//
+//while (nums < 0)
+//{
+//    printf("digite um numero: ");
+//    scanf_s("%f", &nums);
+//
+//    soma = soma + nums;
+//    contador += 1;
+//}
+//
+//media = soma / contador;
+//
+//printf("A media e: %.2f", media);
 
     return 0;
 }
